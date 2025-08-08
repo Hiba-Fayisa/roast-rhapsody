@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
 
-## Project info
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-**URL**: https://lovable.dev/projects/9ec51461-1faa-4eea-88a6-544bbfb26038
 
-## How can I edit this code?
+# ROAST ME 🎯
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## Basic Details
+### Team Name: Hirish
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9ec51461-1faa-4eea-88a6-544bbfb26038) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+### Team Members
+- Team Lead: HIBA FAYISA M - Unity Women's College,Manjeri
+- Member 2: RISHMA KP - Unity Women's College,Manjeri
 
-**Use your preferred IDE**
+### Project Description
+"Roast Me" is a playful web app that takes your name (or any text) and instantly serves you a savage, witty roast—just for fun! It’s the perfect way to get roasted by a machine that has no mercy and even less chill."
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### The Problem (that doesn't exist)
+People aren’t getting roasted enough in their daily lives. Compliments are overrated—sometimes, you just need to be hilariously humbled.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### The Solution (that nobody asked for)
+A one-click roast generator that delivers handcrafted insults in milliseconds. Just type your name, click a button, and prepare to be humbled.
 
-Follow these steps:
+## Technical Details
+### Technologies/Components Used
+For Software:
+-  CSS,TypeScript
+-  None
+-  None
+-  Lovable,Vercel,Github
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Implementation
+For Software:
+# Installation
+# Clone this repository
+git clone https://github.com/username/roast-me.git
+cd roast-me
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Run
+Open index.html in your browser or deploy to Vercel for instant access.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
+### Project Documentation
+For Software:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Screenshots
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+*working process*
 
-## What technologies are used for this project?
+https://drive.google.com/file/d/1SK_pAe7sRFDEZ0kEqWblybOTd5pGXhhd/view?usp=drive_link
+https://drive.google.com/file/d/1N36n-XGciRLKxMUh61eJfaaqcyST7Hhu/view?usp=drive_link
 
-This project is built with:
+# Diagrams
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Basic workflow of the Roast Me app: Input → Generate Roast → Display Output.
+### Project Demo
+# Video
+https://drive.google.com/file/d/19Q9X2ylmq9BDWVdXe7zZjGcG8aXYqGIR/view?usp=drive_link
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/9ec51461-1faa-4eea-88a6-544bbfb26038) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Team Contributions
+- HIBA FAYISA M: Frontend development, roast logic, deployment on Vercel
+- RISHMA KP: UI design, styling, testing
+---
+Made with ❤️ at TinkerHub Useless Projects 
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
