@@ -8,21 +8,21 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Vibrant meme-style colors */
-    --background: 300 100% 3%;
-    --foreground: 60 100% 98%;
+    /* Light blue theme colors */
+    --background: 200 100% 90%;
+    --foreground: 220 50% 15%;
 
-    --card: 280 100% 8%;
-    --card-foreground: 60 100% 95%;
+    --card: 200 50% 95%;
+    --card-foreground: 220 50% 20%;
 
-    --popover: 280 100% 8%;
-    --popover-foreground: 60 100% 95%;
+    --popover: 200 50% 95%;
+    --popover-foreground: 220 50% 20%;
 
     --primary: 315 100% 55%;
-    --primary-foreground: 60 100% 98%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 260 100% 60%;
-    --secondary-foreground: 60 100% 98%;
+    --secondary: 200 60% 70%;
+    --secondary-foreground: 220 50% 15%;
 
     --muted: 280 30% 15%;
     --muted-foreground: 50 20% 70%;
