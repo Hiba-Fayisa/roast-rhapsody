@@ -8,9 +8,9 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light blue theme colors */
-    --background: 200 100% 90%;
-    --foreground: 220 50% 15%;
+    /* Sky blue theme colors */
+    --background: 200 100% 85%;
+    --foreground: 220 80% 20%;
 
     --card: 200 50% 95%;
     --card-foreground: 220 50% 20%;
@@ -39,7 +39,8 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    /* Custom roast colors */
+    /* Custom roast colors - dark blue for ROAST ME text */
+    --roast-title: 220 100% 25%;
     --roast-fire: 15 100% 55%;
     --roast-electric: 200 100% 55%;
     --roast-neon: 90 100% 50%;
@@ -127,10 +128,8 @@ All colors MUST be HSL.
 /* Roast Me specific animations and effects */
 @layer utilities {
   .roast-text {
-    background: var(--gradient-fire);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: hsl(var(--roast-title));
+    text-shadow: 0 2px 4px hsl(var(--roast-title) / 0.3);
     animation: glow 2s ease-in-out infinite alternate;
   }
 
