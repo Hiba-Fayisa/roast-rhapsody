@@ -17,7 +17,16 @@ const RoastMe = () => {
 
   const roastEmojis = ['😂', '🔥', '💀', '🤣', '🤡', '😈', '😹', '🙃', '🤯', '💣', '⚡', '🌶️'];
 
-  const soundFiles = [
+  const categorySounds = {
+    short: ['/sounds/short-roast.mp3'], // Add your short roast sound here
+    medium: ['/sounds/medium-roast.mp3'], // Add your medium roast sound here
+    long: ['/sounds/long-roast.mp3'], // Add your long roast sound here
+    extralong: ['/sounds/extralong-roast.mp3'], // Add your extralong roast sound here
+    ultimate: ['/sounds/ultimate-roast.mp3'] // Add your ultimate roast sound here
+  };
+
+  // Fallback sounds if category-specific sounds aren't available
+  const fallbackSounds = [
     '/sounds/airhorn-6466.mp3',
     '/sounds/boing-spring-mouth-harp-04-20-13-4-103346.mp3',
     '/sounds/buzzer-227217.mp3',
@@ -88,9 +97,19 @@ const RoastMe = () => {
     ]
   };
 
-  const playRandomSound = () => {
-    const randomSound = soundFiles[Math.floor(Math.random() * soundFiles.length)];
-    const audio = new Audio(randomSound);
+  const playCategorySound = (category: string) => {
+    const categoryKey = category as keyof typeof categorySounds;
+    const categorySpecificSounds = categorySounds[categoryKey];
+    
+    // Try to play category-specific sound first, fallback to random if not available
+    let soundToPlay: string;
+    if (categorySpecificSounds && categorySpecificSounds.length > 0) {
+      soundToPlay = categorySpecificSounds[Math.floor(Math.random() * categorySpecificSounds.length)];
+    } else {
+      soundToPlay = fallbackSounds[Math.floor(Math.random() * fallbackSounds.length)];
+    }
+    
+    const audio = new Audio(soundToPlay);
     audio.play().catch(e => console.log('Audio play failed:', e));
   };
 
@@ -129,7 +148,7 @@ const RoastMe = () => {
     const roasts = roastCategories[category];
     const randomRoast = roasts[Math.floor(Math.random() * roasts.length)];
     
-    playRandomSound();
+    playCategorySound(category);
     generateFloatingEmojis();
     
     // Dramatic reveal
